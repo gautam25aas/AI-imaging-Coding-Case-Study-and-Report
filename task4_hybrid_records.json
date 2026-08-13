@@ -1,0 +1,98 @@
+[
+    {
+        "image_id": "test_000.png",
+        "n_objects": 8,
+        "mean_area": 191.75,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 8 objects with a mean area of 191.75 square units, indicating relatively small structures. The density class is classified as low, suggesting sparse or isolated features. The quality flag indicates that the image is in good condition. These quantitative measurements provide limited evidence for biological interpretation."
+    },
+    {
+        "image_id": "test_001.png",
+        "n_objects": 14,
+        "mean_area": 200.857,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 14 objects with a mean area of 200.857 square units, indicating relatively small structures. The density class is classified as low, suggesting sparse or isolated objects. The quality flag indicates that the image is in good condition. These quantitative measurements provide limited evidence for biological interpretation."
+    },
+    {
+        "image_id": "test_002.png",
+        "n_objects": 25,
+        "mean_area": 228.92,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 25 objects with a mean area of 228.92 square units, indicating moderate density. The quality of the image is good, but further analysis would be required to determine any biological conclusions."
+    },
+    {
+        "image_id": "test_003.png",
+        "n_objects": 19,
+        "mean_area": 204.632,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 19 objects with a mean area of 204.632 square units, indicating relatively small features. The density class is classified as low, suggesting sparse object distribution. The quality flag indicates good image quality."
+    },
+    {
+        "image_id": "test_004.png",
+        "n_objects": 41,
+        "mean_area": 346.634,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 41 objects with a mean area of 346.634 square units, indicating moderate density. The quality of the image is good, but further analysis would be needed to determine any biological conclusions."
+    },
+    {
+        "image_id": "test_005.png",
+        "n_objects": 14,
+        "mean_area": 467.429,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 14 objects with a mean area of 467.429 square units, indicating relatively small structures. The density class is classified as low, suggesting sparse or isolated objects. The quality flag indicates that the image is in good condition. These quantitative measurements provide limited evidence for biological interpretation."
+    },
+    {
+        "image_id": "test_006.png",
+        "n_objects": 8,
+        "mean_area": 200.0,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 8 objects with a mean area of 200.0 square units, indicating relatively small structures. The density class is classified as low, suggesting sparse or isolated objects. The quality flag indicates that the image is in good condition. Further analysis would be required to draw conclusions about the biological significance of these findings."
+    },
+    {
+        "image_id": "test_007.png",
+        "n_objects": 23,
+        "mean_area": 205.609,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 23 objects with a mean area of 205.609 square units, indicating moderate density. The quality of the image is good, and the shape regularity suggests well-defined boundaries. However, without additional context or information, it cannot be determined what these objects represent or their biological significance."
+    },
+    {
+        "image_id": "test_008.png",
+        "n_objects": 22,
+        "mean_area": 250.682,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 22 objects with a mean area of 250.682 square units, indicating moderate density. The quality of the image is good, but further analysis would be required to determine any biological conclusions."
+    },
+    {
+        "image_id": "test_009.png",
+        "n_objects": 21,
+        "mean_area": 178.952,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 21 objects with a mean area of 178.95 square units, indicating moderate density. The quality of the image is good, and the shape regularity suggests well-defined boundaries. However, without additional context or information about the tissue type or biological significance, it cannot be determined what these objects represent."
+    },
+    {
+        "image_id": "test_010.png",
+        "n_objects": 36,
+        "mean_area": 364.861,
+        "density_class": "moderate",
+        "quality_flag": "good",
+        "narrative": "The image contains 36 objects with a mean area of 364.861 square units, indicating moderate density. The quality of the image is good, but further analysis would be required to determine any biological conclusions based on these measurements alone."
+    },
+    {
+        "image_id": "test_011.png",
+        "n_objects": 17,
+        "mean_area": 217.588,
+        "density_class": "low",
+        "quality_flag": "good",
+        "narrative": "The image contains 17 objects with a mean area of 217.588 square units, indicating relatively small features. The density class is classified as low, suggesting sparse object distribution. The quality flag indicates that the image is in good condition."
+    }
+]

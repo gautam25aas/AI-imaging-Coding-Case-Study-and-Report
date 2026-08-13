@@ -1,0 +1,32 @@
+{
+    "image": "test_000.png",
+    "corruption": "heavy_blur_sigma_4",
+    "mask_dice_clean_vs_corrupt": 0.7110081112405306,
+    "mask_iou_clean_vs_corrupt": 0.5516001438347659,
+    "clean_record": {
+        "image_id": "test_000.png_clean",
+        "n_objects": 8,
+        "mean_area": 191.75,
+        "density_class": "low",
+        "quality_flag": "good",
+        "shape_regularity": "regular",
+        "mean_eccentricity": 0.635,
+        "mean_solidity": 0.9668,
+        "mean_intensity": 0.2269,
+        "foreground_fraction": 0.0234
+    },
+    "corrupted_record": {
+        "image_id": "test_000.png_blurred",
+        "n_objects": 7,
+        "mean_area": 397.286,
+        "density_class": "low",
+        "quality_flag": "good",
+        "shape_regularity": "regular",
+        "mean_eccentricity": 0.5344,
+        "mean_solidity": 0.9541,
+        "mean_intensity": 0.1119,
+        "foreground_fraction": 0.0424
+    },
+    "clean_narrative": "The image contains 8 objects with a mean area of 191.75 square units, indicating relatively small structures. The density class is classified as low, suggesting sparse or isolated features. The quality flag indicates that the image is in good condition. These quantitative measurements provide limited evidence for biological interpretation.",
+    "corrupted_narrative": "The image contains 7 objects with a mean area of 397.286 square units, indicating relatively small structures. The density class is low, suggesting sparse or isolated features. The quality flag indicates that the image is in good condition. These quantitative measurements provide limited evidence for biological interpretation."
+}

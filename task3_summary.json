@@ -1,0 +1,13 @@
+{
+    "epochs": 15,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "loss_function": "BCE + Dice",
+    "mean_validation_dice": 0.9960419535636902,
+    "mean_validation_iou": 0.9921171188354492,
+    "mean_otsu_dice": 0.978204359061085,
+    "mean_otsu_iou": 0.9573514407221039,
+    "mean_dice_improvement": 0.01783759748283729,
+    "best_loss_extra_credit": "BCE",
+    "best_loss_validation_dice": 0.9953645586967468
+}

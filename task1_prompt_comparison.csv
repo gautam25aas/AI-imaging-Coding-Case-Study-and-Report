@@ -1,0 +1,7 @@
+Criterion,Naive Prompt,Optimised Prompt
+Structured output,No,Yes
+Predetermined fields,No,Yes
+Explicit uncertainty,No,Yes
+Diagnostic restriction,No,Yes
+Machine readable,Usually no,Yes - JSON
+Easy to validate,No,Yes

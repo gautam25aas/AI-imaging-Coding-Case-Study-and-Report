@@ -1,0 +1,19 @@
+{
+    "representative_image": "train_033.png",
+    "naive_prompt": "\nDescribe this microscopy image.\n",
+    "naive_response": "This is an electron microscope image of a sample that appears to contain small, round structures or particles. The image has a high contrast and the structures have a granular appearance with varying shades of gray. This type of image is often used in scientific research to study cellular structures, viruses, or other microorganisms at a very fine scale.",
+    "optimised_prompt": "\nYou are a visual data-analysis assistant examining a grayscale\nfluorescence-microscopy-style image.\n\nTASK\nDescribe only what can reasonably be inferred from the supplied image.\nYour role is descriptive, NOT diagnostic.\n\nIMPORTANT CONSTRAINTS\n1. Do not diagnose a disease or medical condition.\n2. Do not invent the tissue type, organ, stain, species, or acquisition\n   method if these cannot be determined visually.\n3. If a requested field cannot be supported by visible evidence,\n   return \"uncertain\".\n4. Separate direct visual observations from interpretation.\n5. Do not infer facts from common medical knowledge unless they are\n   visible in the image.\n6. Keep the description concise.\n7. Return valid JSON only.\n8. Do not add Markdown or explanatory text outside the JSON.\n\nOUTPUT SCHEMA\n\n{\n    \"modality\": \"string or uncertain\",\n    \"tissue_type\": \"string or uncertain\",\n    \"notable_features\": [\n        \"visible feature 1\",\n        \"visible feature 2\"\n    ],\n    \"image_quality\": {\n        \"overall\": \"good, moderate, poor, or uncertain\",\n        \"contrast\": \"high, moderate, low, or uncertain\",\n        \"noise\": \"low, moderate, high, or uncertain\",\n        \"issues\": [\n            \"visible quality issue or none\"\n        ]\n    }\n}\n\nThe fields must reflect only visual evidence from this image.\n",
+    "optimised_response": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "uncertain",
+        "notable_features": [
+            "grayish oval shapes scattered across the field of view"
+        ],
+        "image_quality": {
+            "overall": "good",
+            "contrast": "high",
+            "noise": "low",
+            "issues": []
+        }
+    }
+}

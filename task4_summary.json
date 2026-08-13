@@ -1,0 +1,15 @@
+{
+    "n_test_images": 12,
+    "mean_n_objects": 20.666666666666668,
+    "mean_area": 254.8261666666667,
+    "llm_validation_pass_rate": 1.0,
+    "density_counts": {
+        "low": 6,
+        "moderate": 6
+    },
+    "quality_counts": {
+        "good": 12
+    },
+    "robustness_mask_dice": 0.7110081112405306,
+    "robustness_mask_iou": 0.5516001438347659
+}

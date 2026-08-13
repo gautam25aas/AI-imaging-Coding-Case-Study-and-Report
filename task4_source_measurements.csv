@@ -1,0 +1,13 @@
+image_id,n_objects,mean_area,density_class,quality_flag,shape_regularity,mean_eccentricity,mean_solidity,mean_intensity,foreground_fraction
+test_000.png,8,191.75,low,good,regular,0.635,0.9668,0.2269,0.0234
+test_001.png,14,200.857,low,good,regular,0.6279,0.9517,0.2338,0.0429
+test_002.png,25,228.92,moderate,good,moderately_regular,0.6803,0.943,0.2409,0.0873
+test_003.png,19,204.632,low,good,moderately_regular,0.6976,0.9633,0.2544,0.0593
+test_004.png,41,346.634,moderate,good,moderately_regular,0.6568,0.923,0.2528,0.2169
+test_005.png,14,467.429,low,good,regular,0.644,0.9246,0.2493,0.0999
+test_006.png,8,200.0,low,good,regular,0.6105,0.9674,0.2706,0.0244
+test_007.png,23,205.609,moderate,good,regular,0.6496,0.9485,0.2476,0.0722
+test_008.png,22,250.682,moderate,good,regular,0.617,0.9416,0.2461,0.0842
+test_009.png,21,178.952,moderate,good,regular,0.6165,0.9643,0.2391,0.0573
+test_010.png,36,364.861,moderate,good,moderately_regular,0.7329,0.9161,0.2522,0.2004
+test_011.png,17,217.588,low,good,moderately_regular,0.6873,0.9414,0.2489,0.0564

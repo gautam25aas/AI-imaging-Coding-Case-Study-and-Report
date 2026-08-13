@@ -1,0 +1,9 @@
+Aspect,Task 1 Direct VLM,Task 2 Numbers-First
+Input to LLM,Image,Measured numerical features only
+Can directly see image,Yes,No
+Object count grounded in code,No,Yes
+Shape measurements grounded in code,No,Yes
+Risk of visual hallucination,Higher,Lower
+Auditability,Lower,Higher
+Can describe subtle visual appearance,Yes,Limited
+Numerical reproducibility,Lower,Higher
